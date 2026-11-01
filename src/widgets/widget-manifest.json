@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "widgets": [
+    {
+      "uri": "/landing",
+      "name": "PerspecTake Idea Form",
+      "description": "Enter a LinkedIn content idea, niche, and target audience for an originality assessment.",
+      "tags": ["LinkedIn", "originality", "creator"]
+    },
+    {
+      "uri": "/analysis-results",
+      "name": "PerspecTake Originality Analysis",
+      "description": "Review generic framing, similar reference ideas, creator repetition, and refine an angle with personal insight.",
+      "tags": ["LinkedIn", "originality", "analysis"]
+    },
+    {
+      "uri": "/refined-angle",
+      "name": "PerspecTake Refined Angle",
+      "description": "Copy or save the refined LinkedIn content angle.",
+      "tags": ["LinkedIn", "writing", "creator"]
+    }
+  ],
+  "generatedAt": "2025-01-01T00:00:00.000Z"
+}

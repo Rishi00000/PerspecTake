@@ -1,0 +1,87 @@
+{
+  "creators": [
+    {
+      "id": "creator_001",
+      "name": "Alex Rivera",
+      "headline": "AI engineer and software developer sharing what I learn while building",
+      "niche": "AI engineering and software development",
+      "audience": "Students and early-career developers",
+      "interests": ["AI tooling", "debugging", "prototyping", "developer productivity", "career growth"],
+      "profileImageUrl": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMGNvZGluZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzkzNTI4Njg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "posts": [
+        {
+          "id": "post_001",
+          "date": "2026-02-03",
+          "topic": "AI coding assistants",
+          "summary": "Listed five AI coding tools every developer should try this year.",
+          "framing": "tool roundup",
+          "imageUrl": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM1Mjg2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 142, "comments": 19 }
+        },
+        {
+          "id": "post_002",
+          "date": "2026-02-19",
+          "topic": "AI will replace developers",
+          "summary": "Argued that developers who ignore AI will fall behind.",
+          "framing": "broad warning",
+          "imageUrl": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwyfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM1Mjg2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 310, "comments": 47 }
+        },
+        {
+          "id": "post_003",
+          "date": "2026-03-07",
+          "topic": "Learning to code in the AI era",
+          "summary": "Advice for students: focus on fundamentals before prompting.",
+          "framing": "general advice",
+          "imageUrl": "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMHN0dWR5aW5nJTIwcHJvZ3JhbW1pbmd8ZW58MXwwfHx8MTc5MzUyODY4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 205, "comments": 33 }
+        },
+        {
+          "id": "post_004",
+          "date": "2026-03-25",
+          "topic": "Prompt engineering tips",
+          "summary": "Ten prompt patterns for better code generation.",
+          "framing": "list of tips",
+          "imageUrl": "https://images.unsplash.com/photo-1763568258533-d0597f86ce62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxjb2RlJTIwZGVidWdnaW5nJTIwc2NyZWVuJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzkzNTI4Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 188, "comments": 12 }
+        },
+        {
+          "id": "post_005",
+          "date": "2026-04-11",
+          "topic": "Shipping my first AI prototype",
+          "summary": "Walkthrough of building a small prototype with an LLM API.",
+          "framing": "personal build log",
+          "imageUrl": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxub3RlYm9vayUyMHNrZXRjaCUyMHByb3RvdHlwZSUyMGRlc2lnbnxlbnwxfDB8fHwxNzkzNTI4Njg4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 267, "comments": 41 }
+        },
+        {
+          "id": "post_006",
+          "date": "2026-04-28",
+          "topic": "Debugging AI-generated code",
+          "summary": "Why AI-written code still needs careful review and tests.",
+          "framing": "caution",
+          "imageUrl": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwzfHxjb2RlJTIwZGVidWdnaW5nJTIwc2NyZWVuJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzkzNTI4Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 231, "comments": 28 }
+        },
+        {
+          "id": "post_007",
+          "date": "2026-05-14",
+          "topic": "Developer productivity with AI",
+          "summary": "How AI tools changed my daily workflow and time management.",
+          "framing": "productivity",
+          "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMGNvZGluZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzkzNTI4Njg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 176, "comments": 22 }
+        },
+        {
+          "id": "post_008",
+          "date": "2026-05-30",
+          "topic": "Team brainstorming with AI",
+          "summary": "Using AI as a brainstorming partner for product ideas.",
+          "framing": "collaboration",
+          "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwYnJhaW5zdG9ybWluZyUyMHdoaXRlYm9hcmR8ZW58MXwwfHx8MTc5MzUyODY4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "engagement": { "likes": 154, "comments": 16 }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "perspectake",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An MCP-powered originality coach for LinkedIn creators.",
+  "scripts": {
+    "dev": "nitrostack-cli dev",
+    "build": "nitrostack-cli build",
+    "start": "npm run build && nitrostack-cli start",
+    "start:prod": "nitrostack-cli start",
+    "upgrade": "nitrostack-cli upgrade",
+    "install:all": "nitrostack-cli install",
+    "widget": "npm --prefix src/widgets run dev",
+    "widget:build": "npm --prefix src/widgets run build"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "@nitrostack/core": "^1.1.2",
+    "zod": "^3.25.0",
+    "@modelcontextprotocol/ext-apps": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nitrostack/cli": "^1.1.2",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.3.3"
+  },
+  "author": "NitroStudio",
+  "nitrostack": {
+    "skillsVersion": "1.0.0"
+  }
+}

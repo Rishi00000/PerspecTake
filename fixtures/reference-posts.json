@@ -1,0 +1,95 @@
+{
+  "note": "Illustrative reference collection of popular LinkedIn-style posts for originality comparison. Based on available reference material only; not an exhaustive index of LinkedIn.",
+  "posts": [
+    {
+      "id": "ref_001",
+      "author": "Industry commentator",
+      "topic": "AI is changing everything",
+      "centralClaim": "AI will transform every industry and professionals must adapt quickly.",
+      "framing": "broad transformation warning",
+      "keywords": ["ai", "change", "adapt", "future", "developers", "jobs"],
+      "imageUrl": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM1Mjg2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_002",
+      "author": "Tech recruiter",
+      "topic": "Developers must adapt or be left behind",
+      "centralClaim": "Developers who ignore AI tools will be replaced by those who use them.",
+      "framing": "adapt-or-die warning",
+      "keywords": ["developers", "adapt", "left behind", "ai", "replaced"],
+      "imageUrl": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwyfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM1Mjg2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_003",
+      "author": "Engineering manager",
+      "topic": "Will AI replace software engineers?",
+      "centralClaim": "AI shifts the engineering role from writing code to reviewing and directing it.",
+      "framing": "role shift prediction",
+      "keywords": ["software engineers", "replace", "role", "review", "code"],
+      "imageUrl": "https://images.unsplash.com/photo-1677442135136-760c813028c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHw0fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM1Mjg2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_004",
+      "author": "Bootcamp instructor",
+      "topic": "Career advice for junior developers in the AI era",
+      "centralClaim": "Juniors should learn fundamentals before leaning on AI assistants.",
+      "framing": "general career advice",
+      "keywords": ["junior", "students", "fundamentals", "career", "learning", "ai"],
+      "imageUrl": "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMHN0dWR5aW5nJTIwcHJvZ3JhbW1pbmd8ZW58MXwwfHx8MTc5MzUyODY4NXww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_005",
+      "author": "Solo founder",
+      "topic": "How I built my MVP with AI in a weekend",
+      "centralClaim": "AI tools let a single person ship a working MVP very quickly.",
+      "framing": "speed build story",
+      "keywords": ["mvp", "prototype", "build", "weekend", "ai", "ship"],
+      "imageUrl": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxub3RlYm9vayUyMHNrZXRjaCUyMHByb3RvdHlwZSUyMGRlc2lnbnxlbnwxfDB8fHwxNzkzNTI4Njg4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_006",
+      "author": "Senior developer",
+      "topic": "Why AI-generated code needs review",
+      "centralClaim": "AI output looks plausible but hides subtle bugs that need testing.",
+      "framing": "caution with evidence-free advice",
+      "keywords": ["ai code", "review", "bugs", "tests", "debugging", "assumptions"],
+      "imageUrl": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwzfHxjb2RlJTIwZGVidWdnaW5nJTIwc2NyZWVuJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzkzNTI4Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_007",
+      "author": "Productivity coach",
+      "topic": "Top 10 AI tools for developers",
+      "centralClaim": "A curated list of AI tools boosts developer productivity.",
+      "framing": "tool roundup list",
+      "keywords": ["tools", "productivity", "list", "developers", "ai"],
+      "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMGNvZGluZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzkzNTI4Njg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_008",
+      "author": "Product lead",
+      "topic": "AI as a brainstorming partner",
+      "centralClaim": "Teams can use AI to generate and test product ideas faster.",
+      "framing": "collaboration tip",
+      "keywords": ["brainstorm", "ideas", "product", "team", "ai"],
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwYnJhaW5zdG9ybWluZyUyMHdoaXRlYm9hcmR8ZW58MXwwfHx8MTc5MzUyODY4Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_009",
+      "author": "AI educator",
+      "topic": "Prompt patterns that improve code generation",
+      "centralClaim": "Structured prompts produce better code from LLMs.",
+      "framing": "technique list",
+      "keywords": ["prompt", "patterns", "code generation", "llm", "tips"],
+      "imageUrl": "https://images.unsplash.com/photo-1763568258533-d0597f86ce62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwxfHxjb2RlJTIwZGVidWdnaW5nJTIwc2NyZWVuJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzkzNTI4Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    },
+    {
+      "id": "ref_010",
+      "author": "Developer advocate",
+      "topic": "Using AI to learn a new codebase",
+      "centralClaim": "AI assistants can explain unfamiliar code and speed onboarding.",
+      "framing": "onboarding tip",
+      "keywords": ["codebase", "learn", "onboarding", "explain", "ai"],
+      "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5OTQ3NTl8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMGNvZGluZyUyMGxhcHRvcHxlbnwxfDB8fHwxNzkzNTI4Njg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+    }
+  ]
+}

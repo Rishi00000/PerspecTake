@@ -1,0 +1,188 @@
+# Build PerspecTake — An MCP-Powered LinkedIn Originality Coach
+
+## Project Overview
+
+Build a functional MCP application called **PerspecTake** using the existing NitroStack project and its supported SDK patterns.
+
+PerspecTake is an originality coach for individual LinkedIn creators building their personal brands.
+
+Creators often have content ideas but struggle to determine whether their ideas are generic, repetitive, or genuinely distinctive. They manually search LinkedIn, review their old posts, and try to find a fresh perspective.
+
+PerspecTake helps creators evaluate their ideas, identify generic framing, and discover a more distinctive point of view before publishing.
+
+**Tagline:** Your perspective. Your take. Your originality.
+
+## Core User Journey
+
+The user should be able to:
+
+1. Enter a LinkedIn content idea.
+2. Provide their niche and target audience.
+3. Analyze the idea for originality.
+4. See an explanation of what is generic or distinctive about the idea.
+5. Compare it against the creator's previous posts and a reference collection.
+6. Answer a follow-up question about their personal experience or insight.
+7. Receive a more distinctive content angle.
+8. Copy the refined angle or save the idea.
+
+## Required MCP Functionality
+
+Implement actual MCP tools using the existing NitroStack SDK and project conventions.
+
+### Tool 1: analyze_idea_originality
+
+Input:
+- content_idea
+- creator_niche
+- target_audience
+
+Functionality:
+- Analyze the idea's topic and central claim.
+- Identify generic or commonly used framing.
+- Compare the idea against available reference content.
+- Check whether the creator has published similar ideas.
+- Identify what is missing from the creator's perspective.
+- Return a structured originality assessment.
+
+Output:
+- originality_category: Common framing / Somewhat distinctive / Distinctive angle
+- topic_saturation
+- angle_distinctiveness
+- creator_repetition
+- reasoning
+- similar_reference_ideas
+- suggested_follow_up_question
+- recommended_direction
+
+Do not claim to prove that an idea has never existed. Explain that the assessment is based on available reference material.
+
+### Tool 2: refine_idea_angle
+
+Input:
+- original_idea
+- creator_personal_insight
+- analysis_context
+
+Functionality:
+- Use the creator's personal experience or insight.
+- Develop a more distinctive angle.
+- Preserve the creator's intended meaning.
+- Avoid inventing personal experiences, facts, or evidence.
+
+Output:
+- original_idea
+- identified_generic_angle
+- refined_angle
+- why_it_is_more_distinctive
+- suggested_post_direction
+
+### Tool 3: get_creator_context
+
+Functionality:
+- Retrieve a sample creator profile.
+- Retrieve the creator's previous LinkedIn posts.
+- Return the creator's niche, audience, interests, and content history.
+
+For the hackathon MVP, use a small local sample dataset. Do not require real LinkedIn API credentials or authentication.
+
+## MCP Resources and Prompts
+
+Where supported by the existing NitroStack project, expose:
+
+- A creator profile resource.
+- A creator content history resource.
+- A reusable originality evaluation prompt.
+
+Use the existing NitroStack SDK patterns. Do not invent unsupported decorators, imports, or APIs.
+
+## User Interface
+
+Create a polished, modern, professional interface suitable for a LinkedIn creator productivity product.
+
+The UI should include:
+
+### Landing / Main Screen
+- PerspecTake branding.
+- Tagline: "Your perspective. Your take. Your originality."
+- A short explanation of the product.
+- A content idea input area.
+- Fields for niche and target audience.
+- An Analyze Originality button.
+
+### Analysis Results
+Show:
+- Originality category.
+- A clear explanation of the assessment.
+- Generic framing identified.
+- Similar ideas from the reference dataset.
+- Creator repetition findings.
+- A follow-up question that helps uncover personal insight.
+
+### Refined Angle
+Show:
+- The original idea.
+- The refined angle.
+- Why the new angle is more distinctive.
+- A Copy button.
+- A Save Idea button.
+
+Make the interface responsive and easy to understand.
+
+## Example Input
+
+Content idea:
+"AI is changing everything. Developers need to adapt or get left behind."
+
+Creator niche:
+"AI engineering and software development"
+
+Target audience:
+"Students and early-career developers"
+
+Example analysis:
+The topic is widely discussed, and the framing is broad. The idea does not yet contain a specific experience, observation, or distinct claim.
+
+Suggested follow-up:
+"What changed in your own development workflow after using AI, and what surprised you?"
+
+Example personal insight:
+"I used AI to build my first prototype, but debugging its assumptions took more effort than writing the code."
+
+Example refined angle:
+"AI helped me build my first prototype faster. It didn't make the assumptions behind it any less wrong."
+
+This is an illustrative example. The application must generate its analysis based on the actual user input and available context.
+
+## Technical Requirements
+
+- Use the existing NitroStack project structure.
+- Use TypeScript and the SDK version already installed.
+- Follow the official NitroStack documentation and starter project conventions.
+- Implement functional MCP tools, not simulated tool-call responses.
+- Keep the project runnable locally.
+- Use local sample data for the initial demo.
+- Include proper input validation and error handling.
+- Do not expose API keys or secrets.
+- Do not overwrite or delete existing working configuration.
+- Do not add unnecessary dependencies.
+- Do not build live LinkedIn publishing or analytics integration.
+- Do not build unrelated features.
+
+## Priority
+
+This is a four-hour hackathon project.
+
+Prioritize in this order:
+
+1. Working MCP server.
+2. Functional originality-analysis tool.
+3. Functional angle-refinement workflow.
+4. Creator context and reference data.
+5. Clean, polished interface.
+6. Testing and demo readiness.
+
+First inspect the existing project files, package.json, installed NitroStack SDK, and starter implementation.
+
+Then implement the application using the actual existing framework conventions. Preserve working code and explain any files created or modified.
+
+The final result must be a functional MCP-powered PerspecTake demo that can be tested in NitroStudio.
