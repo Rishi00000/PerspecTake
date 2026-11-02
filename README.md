@@ -92,7 +92,7 @@ and NitroStack at [nitrostack.ai](https://nitrostack.ai).
 ## Live Demo
 
 - **[Chat](https://nitrochat-perspectake-chat-6ae727-y-r-rishidhar-reddy-fronthyre.app.nitrocloud.ai)**
-- **[MCP](https://perspectake-1-6ae7264b-y-r-rishidhar-reddy-fronthyre.app.nitrocloud.ai/sse)**
+- **[MCP](https://perspectake-1-6ae7264b-y-r-rishidhar-reddy-fronthyre.app.nitrocloud.ai/)**
 
 Connect an MCP-compatible client to the endpoint above to try the hosted
 application. For the interactive widget experience, open the project in
